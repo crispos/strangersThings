@@ -1,38 +1,136 @@
-.App {
-  text-align: center;
+* {
+    background-color: rgb(145, 183, 184);
+    font-family: optima, sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#header {
+    color: rgb(66, 66, 131);
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#navigationBar {
+display: flex;
+justify-content: center;    
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+#navigationLinks {
+    display: flex;
+    flex-direction: row;
+    color: whitesmoke;
 }
 
-.App-link {
-  color: #61dafb;
+a {
+    color:  white;
+    text-decoration: none;
+    font-family: 'Lucida Console';
+    
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+span a {
+    padding: 0px 8px 0px 8px;
+    font-size: 15px;
+    
+}
+
+a:hover {
+    background-color: rgb(66, 66, 131);
+}
+
+.postName,
+h2 {
+    font-size: 18px;
+    font-weight: bold;
+    color: antiquewhite;
+    font-family: optima;
+    display: flex;
+    justify-content: center;
+
+}
+
+span.post-title {
+    display: flex;
+    justify-content: center;
+}
+
+.newPostHeader {
+    margin-bottom: 42px;
+}
+
+.information {
+    padding: 0px 0px 2px 2px;
+    margin: 8px;
+    font-family: Marker Felt, fantasy;
+    color: rgb(22, 22, 22);
+    border-radius: 6px;
+}
+
+button {
+    background-color: rgb(66, 66, 131);
+    color: white;
+    margin-top: 2px;
+    font-family: "Playfair Display", serif;
+    font-family: "Source Code Pro", monospace;
+}
+
+
+#postsNavBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.description {
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2px;
+}
+
+.location{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2px;
+}
+
+.price{
+    display: flex;
+    justify-content: center;
+    color: rgb(66, 66, 131);
+}
+
+#seller {
+    color: antiquewhite;
+    padding: 2px
+}
+
+.page-title {
+    color: rgb(66, 66, 131);
+    font-size: 3vw;
+    display: flex;
+    justify-content: center;
+
+}
+
+form {
+   display: flex;
+   justify-content: space-around;
+  
+}
+
+.userinput {
+    padding: 0;
+    background-color: white;
+}
+
+#user{
+    color: white;
+}
+
+.delete{
+    display: flex;
+    justify-content: flex-end;
 }
