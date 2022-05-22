@@ -4,7 +4,7 @@ import App from './components/App';
 import UserForm from './components/UserForm';
 import MakeNewPost from './components/MakeNewPost';
 import {BrowserRouter,Routes,Route}  from 'react-router-dom';
-import "../src/app.css";
+import "../src/App.css";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
